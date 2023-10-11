@@ -1,0 +1,11 @@
+[package]
+name = "hanover-flipdot"
+description = "An implementation of the Hanover Displays flipdot protocol"
+version = "0.1.0"
+authors = ["Sam W <sam@wlcx.cc>"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+bitvec = "1.0.1"
+embedded-graphics = "0.8.1"
