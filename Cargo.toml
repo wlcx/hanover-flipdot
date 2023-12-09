@@ -5,7 +5,14 @@ version = "0.1.0"
 authors = ["Sam W <sam@wlcx.cc>"]
 edition = "2021"
 license = "MIT"
+keywords = ["flipdot", "graphics", "embedded-graphics"]
+
+[features]
+default = [ "std" ]
+std = ["bitvec/std"]
+embedded-graphics = [ "dep:embedded-graphics" ]
 
 [dependencies]
 bitvec = "1.0.1"
-embedded-graphics = "0.8.1"
+core-error = "0.0.0"
+embedded-graphics = { version = "0.8.1", optional = true }
