@@ -5,7 +5,9 @@ version = "0.1.0"
 authors = ["Sam W <sam@wlcx.cc>"]
 edition = "2021"
 license = "MIT"
-keywords = ["flipdot", "graphics", "embedded-graphics"]
+keywords = ["hanover", "flipdot", "graphics", "embedded-graphics"]
+repository = "https://github.com/wlcx/hanover-flipdot"
+readme = "readme.md"
 
 [features]
 default = [ "std" ]
